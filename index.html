@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakegurui</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="script" href="./scripts.jss">
+</head>
+<body>
+    <div class="container">
+        <img src="https://occ-0-1068-1723.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWz2fD5e4087rXi07Q3YU-6LedjDt1M1wfoU-sgMb52AD7WOEwtotM49vIUtp_WX01aro-O877i0wHfWAUzd_eI9y3_xH-UkXsLy.png?r=1af" class="page-logo"
+            alt="Logo Kakegurui">
+        <h1 class="page-title">Super Trunfo</h1>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div id="placar"></div>
+                <div id="quantidade-cartas"></div>
+                <div id="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+                <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                    disabled="false">Jogar</button>
+            </div>
+            <div id="resultado"></div>
+            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima
+                rodada</button>
+        </form>
+    </div>
+    <script src="./scripts.jss"></script>
+</body>
+</html>
+
+<!--background-image: url('https://pipocamoderna.com.br/wp-content/uploads/2018/11/Kakegurui-1.jpg')>
